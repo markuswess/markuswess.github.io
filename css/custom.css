@@ -14,3 +14,14 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+
+.content-box {
+    border: 1px solid #ddd !important;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.content-box h2 {
+    margin-top: 0;
+}
