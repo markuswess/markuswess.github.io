@@ -2,26 +2,53 @@
     margin-top: 1rem;
     font-size: 0.9rem;
 }
-.profile-main {
+.business-card {
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.subnav {
+    margin: 0rem 0;
+    font-size: 0.9rem;
+}
+.identity {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .profile-photo {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
     object-fit: cover;
+    border-radius: 50%;
 }
 
-
-.content-box {
-    border: 1px solid #ddd !important;
-    padding: 1.5rem;
-    margin: 2rem 0;
+.profile-info h1 {
+    margin: 0;
 }
 
-.content-box h2 {
-    margin-top: 0;
+.position {
+    margin-top: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.research-area {
+    color: #666;
+    margin-top: 0.2rem;
+}
+
+.profile-links {
+    margin-top: 0.1rem;
+    padding-top: 0.4rem;
+    border-top: 0px solid #ddd;
+}
+
+.main-nav {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 0px solid #ddd;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
