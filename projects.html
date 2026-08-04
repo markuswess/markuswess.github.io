@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/simple.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Markus Wess</title>
+  </head>
+  <body>
+    <div id="top"></div>
+    <header class="business-card">
+      <div class="identity">
+        <img src="img/mw.png" alt="Markus Wess" class="profile-photo">
+        <div class="profile-info">
+          <h1>Markus Wess</h1>
+          <div class="research-area">
+            Math & Computers 
+          </div>
+          <div class="profile-links">
+            <a href="https://github.com/markuswess">GitHub</a> | 
+            <a href="https://linkedin.com/in/markus-wess">LinkedIn</a> |
+            <a href="https://www.researchgate.net/profile/Markus-Wess">researchgate</a> |
+            <a href="https://scholar.google.com/citations?hl=de&user=lBuLuQwAAAAJ">scholar</a> |
+            <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1273382">MathSciNet</a> |
+            <a href="https://orcid.org/0000-0001-6323-0821">ORCID</a> |
+            <a href="https://repositum.tuwien.at/rest/person/publications_html/tiss_id/59436">reposiTUm</a>
+          </div>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="sports.html">Sports</a>
+      </nav>
+    </header>
+
+    <main>
+
+<h1>Research Projects</h1>
+
+<div class="subnav">
+    <a href="#unbounded">Unbounded Domains</a>
+    <a href="#timedomain">Time-domain Solvers</a>
+    <a href="#resonances">Resonance Problems</a>
+    <a href="#ngsolve">NGSolve</a>
+</div>
+
+
+<section id="unbounded" class="content-box">
+
+<h2>Unbounded Domains and Absorbing Boundaries</h2>
+
+<p>
+Many wave propagation problems are posed on domains that are effectively
+unbounded. Since finite element methods require finite computational
+domains, artificial boundaries have to be introduced without creating
+spurious reflections.
+</p>
+
+<p>
+My research focuses on <strong>Perfectly Matched Layers (PMLs)</strong>,
+infinite elements, and related absorbing boundary techniques for
+time-domain and frequency-domain wave propagation problems, including
+anisotropic and dispersive media.
+</p>
+
+<p>
+This work combines mathematical analysis with efficient finite element
+discretizations for large-scale simulations.
+</p>
+
+<p>
+<a href="publications.html#journals">Related publications →</a>
+</p>
+
+<div class="section-footer">
+<a href="#top">↑ Back to top</a>
+</div>
+
+</section>
+
+
+
+<section id="timedomain" class="content-box">
+
+<h2>Fast Time-domain Solvers</h2>
+
+<p>
+Time-domain simulations of acoustic and electromagnetic waves often
+lead to extremely large systems of ordinary differential equations.
+Efficient explicit time-stepping methods require specially designed
+spatial discretizations with favorable mass matrices.
+</p>
+
+<p>
+My work focuses on high-order finite element and dual-cell methods
+that enable efficient explicit solvers while maintaining high accuracy.
+Applications include large-scale electromagnetic simulations.
+</p>
+
+<p>
+Software implementations are available in
+<a href="https://ngsolve.github.io/dcm">NGSolve</a>.
+</p>
+
+<p>
+<a href="publications.html#journals">Related publications →</a>
+</p>
+
+<div class="section-footer">
+<a href="#top">↑ Back to top</a>
+</div>
+
+</section>
+
+
+
+<section id="resonances" class="content-box">
+
+<h2>Resonance Problems</h2>
+
+<p>
+Resonance phenomena are governed by eigenvalue problems arising from
+wave equations on open domains. These problems are computationally
+challenging due to their size and non-Hermitian structure.
+</p>
+
+<p>
+My research addresses efficient Krylov methods, nonlinear eigenvalue
+algorithms, and time-domain techniques for computing resonances in
+acoustic and electromagnetic systems.
+</p>
+
+<p>
+Several algorithms are accompanied by open educational material in the
+form of interactive Jupyter Books.
+</p>
+
+<p>
+<a href="publications.html#journals">Related publications →</a>
+</p>
+
+<div class="section-footer">
+<a href="#top">↑ Back to top</a>
+</div>
+
+</section>
+
+
+
+<section id="ngsolve" class="content-box">
+
+<h2>Scientific Software Development in NGSolve</h2>
+
+<p>
+Most numerical methods developed in my research are implemented in the
+open-source finite element library
+<a href="https://ngsolve.org">NGSolve</a>.
+</p>
+
+<p>
+My contributions include implementations of perfectly matched layers,
+infinite elements, dual-cell methods, and research prototypes for
+large-scale wave propagation and eigenvalue problems.
+</p>
+
+<p>
+Alongside the software development, I maintain interactive Jupyter Books
+that document algorithms and demonstrate their practical use.
+</p>
+
+<ul>
+    <li>
+        <a href="https://ngsolve.github.io/dcm">
+            The Dual Cell Method in NGSolve
+        </a>
+    </li>
+
+    <li>
+        <a href="https://markuswess.github.io/td_evp">
+            Time-domain Methods for Resonance Problems
+        </a>
+    </li>
+
+    <li>
+        <a href="https://markuswess.github.io/complex_scaled_infinite_elements">
+            Complex-scaled Infinite Elements
+        </a>
+    </li>
+</ul>
+
+<div class="section-footer">
+<a href="#top">↑ Back to top</a>
+</div>
+
+</section>
+
+    </main>
+
+    <footer>
+      <div class="toplinks">&copy; Markus Wess 2025--2026. Visit on   
+        <a href="https://github.com/markuswess">GitHub</a> | 
+        <a href="https://linkedin.com/in/markus-wess">LinkedIn</a> |
+        <a href="https://www.researchgate.net/profile/Markus-Wess">Researchgate</a> |
+        <a href="https://github.com/markuswess">Google Scholar</a> |
+        <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1273382">MathSciNet</a> |
+        <a href="https://orcid.org/0000-0001-6323-0821">ORCID</a> |
+        <a href="https://repositum.tuwien.at/rest/person/publications_html/tiss_id/59436">reposiTUm</a>
+      </div>
+    </footer>
+  </body>
+</html>
