@@ -70,3 +70,19 @@
 .section-footer a:hover {
     text-decoration: underline;
 }
+
+h2 {
+    padding-bottom: 0.35rem;
+}
+
+h3 {
+    margin-top: 1.75rem;
+    font-size: 1.25rem;
+    color: var(--text-light);
+}
+
+@media only screen and (max-width: 720px) {
+    h3 {
+        font-size: 1.5rem;
+    }
+}
